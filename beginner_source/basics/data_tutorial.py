@@ -34,9 +34,9 @@ Datasets & DataLoaders
 # Loading a Dataset
 # -------------------
 #
-# Here is an example of how to load the `Fashion-MNIST <https://research.zalando.com/project/fashion_mnist/fashion_mnist/>`_ dataset from TorchVision.
-# Fashion-MNIST is a dataset of Zalando’s article images consisting of 60,000 training examples and 10,000 test examples.
-# Each example comprises a 28×28 grayscale image and an associated label from one of 10 classes.
+# 다음은 TorchVision에서 `Fashion-MNIST<https://research.zalando.com/project/fashion_mnist/fashion_mnist/>`_ 데이터셋을 불러오는 방법의 예시입니다.-
+# Fashion-MNIST는 Zalando의 이미지 데이터셋으로 60,000개의 학습 데이터와 10,000개의 테스트 데이터를 포함하고 있습니다.
+# 각 데이터는 28×28 크기의 흑백 이미지와 10개의 클래스 중 하나의 레이블로 이루어져 있습니다.
 #
 # We load the `FashionMNIST Dataset <https://pytorch.org/vision/stable/datasets.html#fashion-mnist>`_ with the following parameters:
 #  - ``root`` is the path where the train/test data is stored,
